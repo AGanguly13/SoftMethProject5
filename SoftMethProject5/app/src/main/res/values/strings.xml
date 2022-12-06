@@ -12,4 +12,7 @@
     <string name="place_order">Place Order</string>
     <string name="remove_pizza">Remove Pizza</string>
     <string name="clear_order">Clear Order</string>
+    <string name="store_orders">Store Orders</string>
+    <string name="select_order">Select Order</string>
+    <string name="cancel_order">Cancel Order</string>
 </resources>
