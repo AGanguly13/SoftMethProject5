@@ -12,7 +12,7 @@ import java.util.List;
 public class CurrentOrderActivity extends AppCompatActivity {
 
     private ArrayAdapter<String> adapter;
-    private ArrayList<String> currentPizzas;
+    private ArrayList<String> currentPizzas = new ArrayList<>(10);
     private Order currentOrder;
     private double subPrice;
     private double orderTotal;
@@ -43,7 +43,7 @@ public class CurrentOrderActivity extends AppCompatActivity {
         orderTotalDisplay = findViewById(R.id.orderTotal);
         orderNumberDisplay = findViewById(R.id.orderNum);
 
-        adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, currentPizzas);
+        adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_single_choice, currentPizzas);
         orderDisplay.setAdapter(adapter);
 
         //need to set allOrders to variable in main
