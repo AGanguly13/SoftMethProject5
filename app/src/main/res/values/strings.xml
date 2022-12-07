@@ -15,4 +15,6 @@
     <string name="store_orders">Store Orders</string>
     <string name="select_order">Select Order</string>
     <string name="cancel_order">Cancel Order</string>
+
+    <string name="largeSize">LARGE</string>
 </resources>

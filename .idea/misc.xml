@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/currentorder.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.15070921985815602" />
+      </map>
+    </option>
+  </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_18" project-jdk-name="Android API 30 Platform" project-jdk-type="Android SDK" />
 </project>
