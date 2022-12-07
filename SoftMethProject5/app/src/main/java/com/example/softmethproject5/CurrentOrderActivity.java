@@ -43,6 +43,9 @@ public class CurrentOrderActivity extends AppCompatActivity {
         orderTotalDisplay = findViewById(R.id.orderTotal);
         orderNumberDisplay = findViewById(R.id.orderNum);
 
+        adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, currentPizzas);
+        orderDisplay.setAdapter(adapter);
+
         //need to set allOrders to variable in main
         //allOrders = MainActivity.
     }
@@ -59,8 +62,6 @@ public class CurrentOrderActivity extends AppCompatActivity {
             subPrice += p.price();
             currentPizzas.add(p.toString());
         }
-        adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, currentPizzas);
-        orderDisplay.setAdapter(adapter);
         orderTotal = subPrice * 1.06625;
         salesTax = subPrice * 0.06625;
         salesTax = Math.round(salesTax * 100) / 100.0;

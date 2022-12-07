@@ -22,7 +22,7 @@
     <ListView
             android:layout_width="304dp"
             android:layout_height="389dp"
-            android:id="@+id/storeOrdersList" android:background="#FFA9A9" app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/storeOrderList" android:background="#FFA9A9" app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.495" app:layout_constraintVertical_bias="0.42"/>
@@ -32,14 +32,14 @@
             android:inputType="none"
             android:ems="10"
             android:id="@+id/storeOrderTotal"
-            app:layout_constraintTop_toBottomOf="@+id/storeOrdersList"
-            android:layout_marginTop="24dp" app:layout_constraintStart_toStartOf="@+id/storeOrdersList"
+            app:layout_constraintTop_toBottomOf="@+id/storeOrderList"
+            android:layout_marginTop="24dp" app:layout_constraintStart_toStartOf="@+id/storeOrderList"
             android:text="@string/order_total" android:minHeight="48dp" android:importantForAutofill="no"/>
     <Button
             android:text="@string/cancel_order"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/cancelOrder"
-            app:layout_constraintStart_toStartOf="@+id/storeOrdersList"
+            app:layout_constraintStart_toStartOf="@+id/storeOrderList"
             app:layout_constraintTop_toBottomOf="@+id/storeOrderTotal" android:layout_marginTop="20dp"
     />
 </androidx.constraintlayout.widget.ConstraintLayout>
